@@ -1,10 +1,10 @@
-# 🎙️ Voice-Enabled Cursor AI
+#  Voice-Enabled Cursor AI
 
 A voice-controlled AI assistant capable of executing coding and file system operations using natural language. The system leverages LangGraph to perform multi-step planning and tool-based execution.
 
 ---
 
-## 🚀 Features
+##  Features
 
 *  Voice-based interaction using SpeechRecognition
 *  Autonomous multi-step planning using LangGraph
@@ -15,7 +15,7 @@ A voice-controlled AI assistant capable of executing coding and file system oper
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 The system follows a planner–executor workflow:
 
@@ -28,7 +28,7 @@ User Input → Planner → Executor → Chatbot → Tools → Execution Loop →
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * LangGraph
@@ -41,7 +41,7 @@ User Input → Planner → Executor → Chatbot → Tools → Execution Loop →
 
 ---
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
@@ -95,7 +95,7 @@ python main.py
 
 ---
 
-## 🎯 Example Commands
+##  Example Commands
 
 * "Create a Python file for stack implementation"
 * "Write code for stack operations"
@@ -104,13 +104,13 @@ python main.py
 
 ---
 
-## 🔐 Safety Design
+##  Safety Design
 
 Destructive operations like file deletion are handled outside the AI agent with explicit user confirmation to prevent unintended actions.
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 *  Text-to-Speech (voice output)
 *  Web search integration
@@ -119,6 +119,6 @@ Destructive operations like file deletion are handled outside the AI agent with 
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Saurabh Kumar
